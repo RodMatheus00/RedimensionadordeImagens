@@ -1,0 +1,26 @@
+# Segredos e ambiente local
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Build (PyInstaller)
+build/
+dist/
+
+# Saidas locais
+logs/
+*.log
+downloads/
+data/
+
+# IDE / SO
+.idea/
+Thumbs.db
+desktop.ini
